@@ -1,6 +1,6 @@
 # Boilerplate starterkit
 
-Starterkit en Jade y Less con Boilerplate y Bootstrap.
+Starterkit en [Jade](http://jade-lang.com) y [Less](http://lesscss.org) con [HTML5 Boilerplate] (https://html5boilerplate.com) y [Bootstrap](http://getbootstrap.com).
 Controlador de dependencias npm
 Con automatizador de tareas Gulp
 
@@ -30,12 +30,13 @@ Con automatizador de tareas Gulp
 
 
 ### Bootstrap
-* Se descarga al realizar al instalción de npm install
+* Se descarga al realizar al instalación de npm install
 * preprocesador Less
 * Configurado con solo el sistema de grilla, mixin y variables, estas últimas necesarias para el funcionamiento de la regilla. Para activar más componentes, tanto CSS como javaScript, descomentar las líneas correspondientes en el archivo ./src/less/vendors/bootstrap-index.less
 
 
 ### html
+
 * Se preprocesa con [Jade](http://jade-lang.com)
 * Chequea y valida código de Bootstrap con linter gulp-bootlint
 * Chequea y valida código HTML5 con gulp-html5-lint
@@ -49,9 +50,9 @@ Con automatizador de tareas Gulp
 * Pasa todas las media query al final de la hoja style.css
 * Minimiza el códígo
 * lo guarda en al carpeta de producción ./dist/css
-* 
+* Recarga página del navegador con Livereload
 
 ### javaScript
 
-* Próximamente
-* 
+* Coming soon... :)
+
