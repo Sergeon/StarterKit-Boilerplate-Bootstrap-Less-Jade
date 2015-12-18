@@ -1,0 +1,33 @@
+.main{
+  
+  margin-top: 40px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+  
+  &-body{
+    padding-right: 50px;
+  }
+
+  h1{
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  &:before{
+    content: "";
+    display: block;
+    height: 47px;
+    background-image: url(../img/montanas-header-top.png);
+    background-repeat: repeat-x;
+    background-position: -200px;
+    margin-bottom: 74px;
+  }
+  .front &{
+    background-color: transparent;
+     &:before{
+       display: none;
+
+     }
+
+  }
+}
+

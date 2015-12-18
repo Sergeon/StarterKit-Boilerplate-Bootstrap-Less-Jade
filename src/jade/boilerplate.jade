@@ -1,0 +1,35 @@
+
+doctype html
+html(class='no-js')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    block title
+        title= pageTitle
+    block description
+        meta(name='description', content = "descripción de la pagina")
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    
+    link(rel="apple-touch-icon" href="apple-touch-icon.png")
+    // Place favicon.ico in the root directory
+    //- link(rel='stylesheet', href='css/normalize.css') //añadido en bootstrap    
+    link(rel='stylesheet', href='css/styles.css')
+
+
+  body
+    //if lt IE 8
+      p.chromeframe.
+        You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade your browser</a>
+        to improve your experience.
+    //- Incluir aquí código Jade 
+    block header
+    block content
+      block aside
+      block main
+    block footer
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+    script window.jQuery || document.write('<script src="js/vendor/1.11.3/jquery.min.js><\/script>')
+    script(src='js/plugins.js')
+    script(src='js/main.js')
